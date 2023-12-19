@@ -1,6 +1,0 @@
-setup.py
-hanspell.egg-info/PKG-INFO
-hanspell.egg-info/SOURCES.txt
-hanspell.egg-info/dependency_links.txt
-hanspell.egg-info/requires.txt
-hanspell.egg-info/top_level.txt
