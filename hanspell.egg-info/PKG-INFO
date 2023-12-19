@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: hanspell
+Version: 1.1
+Summary: tuned by seokbong (for testing)
+Home-page: https://github.com/Seokhyeon-Park/hanspell.git
+Author: Seokbong
+Author-email: dfbgq346q@gmail.com
+License: MIT
+Requires-Dist: requests
