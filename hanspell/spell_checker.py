@@ -48,7 +48,6 @@ def check(text):
 
     payload = {
         'passportKey': 'c384b2ff8b3456f9338af70b63f1e611131353bf',
-        '_callback': 'jQuery1124013385591935907337_1702974192405',
         'where': 'nexearch',
         'color_blindness': 0,
         '_': 1702974192406,
@@ -67,11 +66,8 @@ def check(text):
     # print("r.text : ", r.text)
 
     passed_time = time.time() - start_time
-    
-    json_match = re.search(r'\(({.*})\)', r.text)
-    json_data = json_match.group(1)
 
-    data = json.loads(json_data)
+    data = json.loads(r.text)
 
     # print("r - data : ", data)
 
