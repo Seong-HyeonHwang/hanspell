@@ -47,10 +47,10 @@ def check(text):
         return Checked(result=False)
 
     payload = {
-        'passportKey': 'c384b2ff8b3456f9338af70b63f1e611131353bf',
+        'passportKey': '8d0ff3610c96614972be84b168679a19be25e151',
         'where': 'nexearch',
         'color_blindness': 0,
-        '_': 1702974192406,
+        '_': 1742101339876,
         'q': text
     }
 
